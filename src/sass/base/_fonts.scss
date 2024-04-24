@@ -11,12 +11,12 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: 'Tactic Sans';
-//   src: local('Tactic Sans Extended Bold'), local('Tactic-Sans-Extended-Bold'),
-//     url('../fonts/Tactic_Sans/TacticSansExd-Bld.woff2') format('woff2'),
-//     url('../fonts/Tactic_Sans/TacticSansExd-Bld.woff') format('woff'),
-//     url('../fonts/Tactic_Sans/TacticSansExd-Bld.ttf') format('truetype');
-//   font-weight: 700;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Tactic Sans';
+  src: local('Tactic Sans Extended Bold'), local('Tactic-Sans-Extended-Bold'),
+    url('../fonts/Tactic_Sans/TacticSansExd-Bld.woff2') format('woff2'),
+    url('../fonts/Tactic_Sans/TacticSansExd-Bld.woff') format('woff'),
+    url('../fonts/Tactic_Sans/TacticSansExd-Bld.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
