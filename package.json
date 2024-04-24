@@ -2,20 +2,20 @@
   "name": "x-war",
   "version": "1.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "https://vitaliysaburdo.github.io/X-WAR/",
   "scripts": {
     "start": "parcel src/*.html --open --port 3000",
     "build": "parcel build src/*.html --public-url /x-war/"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/VitaliySaburdo/X-WAR"
   },
   "keywords": [],
   "author": "Saburdo Vitaliy <vsaburdo@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://VitaliySaburdo.github.io/X-WAR/issues"
   },
   "dependencies": {
     "modern-normalize": "^2.0.0"
