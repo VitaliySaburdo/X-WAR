@@ -2,9 +2,10 @@
 @import './utils/mixins';
 @import './utils/modern-normalize';
 @import './utils/variables';
-@import './utils/visualy-hiden';
+@import './utils/visually-hidden';
 
 // Base
+@import './base/fonts';
 @import './base/body-settings';
 @import './base/reset-styles';
 @import './base/container-setting';
