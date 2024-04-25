@@ -1,0 +1,17 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header__link {
+    display: block;
+}
+
+.header__logo--img {
+@include mq(mob){
+    width: 42px;
+    height: 42px;
+}
+}
