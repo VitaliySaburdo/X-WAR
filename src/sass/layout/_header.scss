@@ -9,9 +9,3 @@
     display: block;
 }
 
-.header__logo--img {
-@include mq(mob){
-    width: 42px;
-    height: 42px;
-}
-}

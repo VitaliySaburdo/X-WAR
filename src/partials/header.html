@@ -1,11 +1,21 @@
 <header>
   <div class="container">
     <div class="header__wrapper">
-    <a class="header__link" href="./index.html"
-      ><img src="./images/header/logo._sm.png" alt="header__link" width="29" height="29" />
-    </a>
-    <h2>X-WAR</h2>
-    <button><img src="./images/header/btn_icon.png" alt=""></button>
-  </div>
+      <a class="header__link" href="./index.html"
+        ><img
+          srcset="
+            ./images/header/logo._sm.png 29w,
+            ./images/header/logo_md.png  42w
+          "
+          src="./images/header/logo._sm.png"
+          alt="header__link"
+          sizes="(min-width: 768px) 42px, (max-width: 767px) 29px, 100vh"
+          width="42"
+          height="42"
+        />
+      </a>
+      <h2>X-WAR</h2>
+      <button><img src="./images/header/btn_icon.png" alt="" /></button>
+    </div>
   </div>
 </header>
