@@ -1,11 +1,20 @@
 .header__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  @include mq(tab) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 .header__link {
-    display: block;
+  display: block;
 }
-
+.header__icon {
+  @include mq(tab) {
+    width: 31px;
+    height: 31px;
+  }
+}
