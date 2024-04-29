@@ -8,6 +8,12 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  @include mq(desk) {
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .header__link {
   display: block;
@@ -16,5 +22,20 @@
   @include mq(tab) {
     width: 31px;
     height: 31px;
+  }
+}
+.header__btn {
+  @include mq(desk) {
+    display: none;
+  }
+}
+
+.header__box{
+  display: none;
+  @include mq(desk) {
+    display: block;
+    height: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
   }
 }
