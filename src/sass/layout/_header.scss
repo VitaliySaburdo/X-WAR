@@ -79,13 +79,23 @@
   }
 }
 
-.menu__item:hover .sub-menu__list {
-  display: block;
-}
-
 .sub-menu__list {
   position: absolute;
+  top: 21px;
+  left: 0;
   display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+  border-top: 2px solid #E0AF7F;
+}
+
+.menu__list>li:hover .sub-menu__list {
+  display: block;
+  opacity: 1;
+}
+
+.sub-menu__list > li:hover {
+  background-color: #D7D7D7;
 }
 
 .menu__icon {
