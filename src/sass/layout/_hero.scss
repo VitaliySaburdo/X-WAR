@@ -1,0 +1,19 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -59px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/hero/hero_img_mob.webp);
+  max-width: 480px;
+  height: 568px;
+}
+
+.hero__title {
+    padding-top: 286px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--wite-text-color);
+    text-align: center;
+}

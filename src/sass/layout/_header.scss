@@ -28,8 +28,15 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #000;
+  color: var(--text-logo-color);
 }
+
+.header__title{
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--wite-text-color);
+}
+
 .header__icon {
   @include mq(tab) {
     width: 31px;
@@ -59,7 +66,7 @@
 }
 
 .header__text {
-  font-family: var(--secondary-font);
+  font-family: var(--text-logo-color);
   font-size: 7px;
   font-weight: bold;
   color: #e0af7f;
