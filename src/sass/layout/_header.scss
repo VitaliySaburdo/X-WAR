@@ -119,3 +119,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+header .btn__brown {
+  margin-left: auto;
+  display: none;
+  @include mq(desk){
+    display: flex;
+  }
+}
