@@ -1,16 +1,15 @@
-.btn__brown {
+.btn__transparent {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
     padding: 11px 15px;
-    border: none;
-    background-color: var(--btn_brown-bcg-color);
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
     border-radius: 2px;
     cursor: pointer;
-    color: var(--btn_brown-text-color);
+    color: var(--wite-btn-text-color);
     font-family: var(--secondary-font);
     font-size: 10px;
     text-transform: uppercase;
 }
-

@@ -10,10 +10,30 @@
   height: 568px;
 }
 
+.hero__container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 279px;
+}
+
 .hero__title {
     padding-top: 286px;
     font-family: var(--secondary-font);
     font-size: 14px;
     color: var(--wite-text-color);
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero .btn__brown {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero .btn__transparent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
