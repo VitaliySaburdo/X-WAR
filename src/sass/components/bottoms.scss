@@ -1,0 +1,28 @@
+
+@mixin btn_long(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 11px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+}
+
+.btn__brown {
+    @include btn_long();
+    border: none;
+    background-color: var(--btn_brown-bcg-color);
+    color: var(--btn_brown-text-color);
+}
+
+.btn__transparent {
+    @include btn_long();
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: var(--wite-btn-text-color);
+}
+
