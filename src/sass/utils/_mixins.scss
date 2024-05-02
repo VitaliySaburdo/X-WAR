@@ -1,3 +1,23 @@
+// FONTS
+@mixin fonts($fs, $fw, $lh) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: calc($lh/$fs);
+}
+
+// SECTION
+@mixin section($pt: 60px, $pb: 60px) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+
+// FLEX
+@mixin centered-flex() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @mixin card-set($card-gap: 20px) {
   display: flex;
   flex-wrap: wrap;
@@ -8,23 +28,7 @@
   flex-basis: calc((100% - #{$card-gap} * (#{$card-item} - 1)) / #{$card-item});
 }
 
-@mixin fonts($fs, $fw, $lh) {
-  font-size: $fs;
-  font-weight: $fw;
-  line-height: calc($lh/$fs);
-}
-
-@mixin section($pt: 60px, $pb: 60px) {
-  padding-top: $pt;
-  padding-bottom: $pb;
-}
-
-@mixin centered-flex() {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+// MEDIA RULES
 @mixin mq($range) {
   $min: 320px;
   $mob: 480px;
@@ -72,4 +76,16 @@
       @content;
     }
   }
+}
+
+// BUTTONS
+@mixin btn_long(){
+  @include centered-flex();
+  gap: 5px;
+  padding: 11px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
 }
