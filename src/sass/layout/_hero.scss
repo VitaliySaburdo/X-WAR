@@ -5,15 +5,27 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/hero/hero_img_mob.webp);
   max-width: 480px;
-  height: 568px;
+//   height: 568px;
+  background-image: url(../images/hero/hero_img_mob.webp);
+
+  @include mq(tab){
+    max-width: 768px;
+    background-image: url(../images/hero/hero_img_tab.webp);
+  }
+
+  @include mq(desk){
+    max-width: 1200px;
+    background-image: url(../images/hero/hero_img_desk.webp);
+  }
 }
 
 .hero__container {
     margin-left: auto;
     margin-right: auto;
     width: 279px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .hero__title {
@@ -36,4 +48,20 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.move_bottom {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;  
 }
