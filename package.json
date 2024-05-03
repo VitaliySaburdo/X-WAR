@@ -1,15 +1,15 @@
 {
-  "name": "x-war",
+  "name": "parcel-project-template",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://vitaliysaburdo.github.io/X-WAR/",
+  "homepage": "https://VitaliySaburdo.github.io/X-WAR/",
   "scripts": {
     "start": "parcel src/*.html --open --port 3000",
     "build": "parcel build src/*.html --public-url /x-war/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VitaliySaburdo/X-WAR"
+    "url": "git+https://VitaliySaburdo.github.io/X-WAR"
   },
   "keywords": [],
   "author": "Saburdo Vitaliy <vsaburdo@gmail.com>",
@@ -22,8 +22,8 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0",
     "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^2.0.1"
   },
